@@ -7,12 +7,19 @@
 
 import UIKit
 
+protocol SignInView: AnyObject {
+    func transitionToNextView()
+    func showError(title: String, message: String)
+}
+
 final class SignInViewController: UIViewController {
 
     private let stackView = UIStackView()
     private let idTextField = PaddingTextField(top: 5, left: 5, bottom: 5, right: 5)
     private let passwordTextField = PaddingTextField(top: 5, left: 5, bottom: 5, right: 5)
     private let signInButton = UIButton()
+
+    var presenter: SignInPresentation!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,7 +53,22 @@ final class SignInViewController: UIViewController {
     }
 
     @objc private func didTapSignInButton(_ sender: UIButton) {
-        print("hoge")
+        let id = idTextField.text ?? ""
+        let pass = passwordTextField.text ?? ""
+        presenter.didTapSignInButton(id: id, password: pass)
+    }
+}
+
+extension SignInViewController: SignInView {
+    func transitionToNextView() {
+        print("transition")
+    }
+
+    func showError(title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let closeAction = UIAlertAction(title: "閉じる", style: .default)
+        alert.addAction(closeAction)
+        self.present(alert, animated: true)
     }
 }
 

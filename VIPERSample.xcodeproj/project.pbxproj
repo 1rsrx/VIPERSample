@@ -13,6 +13,10 @@
 		FB22E799285D32A700019A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB22E798285D32A700019A65 /* Assets.xcassets */; };
 		FB22E79C285D32A800019A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB22E79A285D32A800019A65 /* LaunchScreen.storyboard */; };
 		FB745850285D931A006FC6EE /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74584F285D931A006FC6EE /* PaddingTextField.swift */; };
+		FB745853285D9AD3006FC6EE /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745852285D9AD3006FC6EE /* SignInPresenter.swift */; };
+		FB745855285D9C5D006FC6EE /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745854285D9C5D006FC6EE /* SignInRouter.swift */; };
+		FB745857285D9D16006FC6EE /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745856285D9D16006FC6EE /* SignInInteractor.swift */; };
+		FB745859285D9DA8006FC6EE /* SignInError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745858285D9DA8006FC6EE /* SignInError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FB22E79B285D32A800019A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB22E79D285D32A800019A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB74584F285D931A006FC6EE /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		FB745852285D9AD3006FC6EE /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		FB745854285D9C5D006FC6EE /* SignInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
+		FB745856285D9D16006FC6EE /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
+		FB745858285D9DA8006FC6EE /* SignInError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 		FB745849285D4015006FC6EE /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				FB745856285D9D16006FC6EE /* SignInInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -89,6 +98,7 @@
 		FB74584A285D401D006FC6EE /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				FB745852285D9AD3006FC6EE /* SignInPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -96,6 +106,7 @@
 		FB74584B285D4021006FC6EE /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				FB745858285D9DA8006FC6EE /* SignInError.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -103,6 +114,7 @@
 		FB74584C285D4025006FC6EE /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				FB745854285D9C5D006FC6EE /* SignInRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -185,10 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB745855285D9C5D006FC6EE /* SignInRouter.swift in Sources */,
 				FB22E794285D32A500019A65 /* SignInViewController.swift in Sources */,
 				FB745850285D931A006FC6EE /* PaddingTextField.swift in Sources */,
 				FB22E790285D32A500019A65 /* AppDelegate.swift in Sources */,
 				FB22E792285D32A500019A65 /* SceneDelegate.swift in Sources */,
+				FB745857285D9D16006FC6EE /* SignInInteractor.swift in Sources */,
+				FB745859285D9DA8006FC6EE /* SignInError.swift in Sources */,
+				FB745853285D9AD3006FC6EE /* SignInPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
