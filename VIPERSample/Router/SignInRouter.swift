@@ -32,6 +32,10 @@ final class SignInRouter {
 
 extension SignInRouter: SignInWireFrame {
     func transitionToContentView() {
-        print("transition to content")
+        let scenes = UIApplication.shared.connectedScenes
+        let windowScene = scenes.first as? UIWindowScene
+        let window = windowScene?.windows.first
+        window!.rootViewController = ContentViewController()
+
     }
 }

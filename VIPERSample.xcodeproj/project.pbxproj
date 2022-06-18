@@ -17,7 +17,28 @@
 		FB745855285D9C5D006FC6EE /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745854285D9C5D006FC6EE /* SignInRouter.swift */; };
 		FB745857285D9D16006FC6EE /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745856285D9D16006FC6EE /* SignInInteractor.swift */; };
 		FB745859285D9DA8006FC6EE /* SignInError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745858285D9DA8006FC6EE /* SignInError.swift */; };
+		FB74585B285DA516006FC6EE /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74585A285DA516006FC6EE /* ContentViewController.swift */; };
+		FB745864285DA9B7006FC6EE /* VIPERSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745863285DA9B7006FC6EE /* VIPERSampleTests.swift */; };
+		FB745871285DAB07006FC6EE /* VIPERSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745870285DAB07006FC6EE /* VIPERSampleUITests.swift */; };
+		FB745873285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745872285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB745865285DA9B7006FC6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB22E784285D32A500019A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB22E78B285D32A500019A65;
+			remoteInfo = VIPERSample;
+		};
+		FB745874285DAB07006FC6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB22E784285D32A500019A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB22E78B285D32A500019A65;
+			remoteInfo = VIPERSample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FB22E78C285D32A500019A65 /* VIPERSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,10 +53,30 @@
 		FB745854285D9C5D006FC6EE /* SignInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
 		FB745856285D9D16006FC6EE /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
 		FB745858285D9DA8006FC6EE /* SignInError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInError.swift; sourceTree = "<group>"; };
+		FB74585A285DA516006FC6EE /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		FB745861285DA9B7006FC6EE /* VIPERSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB745863285DA9B7006FC6EE /* VIPERSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERSampleTests.swift; sourceTree = "<group>"; };
+		FB74586E285DAB07006FC6EE /* VIPERSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB745870285DAB07006FC6EE /* VIPERSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERSampleUITests.swift; sourceTree = "<group>"; };
+		FB745872285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FB22E789285D32A500019A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74585E285DA9B7006FC6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74586B285DAB07006FC6EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				FB22E78E285D32A500019A65 /* VIPERSample */,
+				FB745862285DA9B7006FC6EE /* VIPERSampleTests */,
+				FB74586F285DAB07006FC6EE /* VIPERSampleUITests */,
 				FB22E78D285D32A500019A65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				FB22E78C285D32A500019A65 /* VIPERSample.app */,
+				FB745861285DA9B7006FC6EE /* VIPERSampleTests.xctest */,
+				FB74586E285DAB07006FC6EE /* VIPERSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +128,7 @@
 			children = (
 				FB745851285D98A1006FC6EE /* Common */,
 				FB22E793285D32A500019A65 /* SignInViewController.swift */,
+				FB74585A285DA516006FC6EE /* ContentViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -127,6 +173,23 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		FB745862285DA9B7006FC6EE /* VIPERSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB745863285DA9B7006FC6EE /* VIPERSampleTests.swift */,
+			);
+			path = VIPERSampleTests;
+			sourceTree = "<group>";
+		};
+		FB74586F285DAB07006FC6EE /* VIPERSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB745870285DAB07006FC6EE /* VIPERSampleUITests.swift */,
+				FB745872285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift */,
+			);
+			path = VIPERSampleUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +210,42 @@
 			productReference = FB22E78C285D32A500019A65 /* VIPERSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FB745860285DA9B7006FC6EE /* VIPERSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB745867285DA9B7006FC6EE /* Build configuration list for PBXNativeTarget "VIPERSampleTests" */;
+			buildPhases = (
+				FB74585D285DA9B7006FC6EE /* Sources */,
+				FB74585E285DA9B7006FC6EE /* Frameworks */,
+				FB74585F285DA9B7006FC6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB745866285DA9B7006FC6EE /* PBXTargetDependency */,
+			);
+			name = VIPERSampleTests;
+			productName = VIPERSampleTests;
+			productReference = FB745861285DA9B7006FC6EE /* VIPERSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB74586D285DAB07006FC6EE /* VIPERSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB745876285DAB07006FC6EE /* Build configuration list for PBXNativeTarget "VIPERSampleUITests" */;
+			buildPhases = (
+				FB74586A285DAB07006FC6EE /* Sources */,
+				FB74586B285DAB07006FC6EE /* Frameworks */,
+				FB74586C285DAB07006FC6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB745875285DAB07006FC6EE /* PBXTargetDependency */,
+			);
+			name = VIPERSampleUITests;
+			productName = VIPERSampleUITests;
+			productReference = FB74586E285DAB07006FC6EE /* VIPERSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -159,6 +258,14 @@
 				TargetAttributes = {
 					FB22E78B285D32A500019A65 = {
 						CreatedOnToolsVersion = 13.3;
+					};
+					FB745860285DA9B7006FC6EE = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = FB22E78B285D32A500019A65;
+					};
+					FB74586D285DAB07006FC6EE = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = FB22E78B285D32A500019A65;
 					};
 				};
 			};
@@ -176,6 +283,8 @@
 			projectRoot = "";
 			targets = (
 				FB22E78B285D32A500019A65 /* VIPERSample */,
+				FB745860285DA9B7006FC6EE /* VIPERSampleTests */,
+				FB74586D285DAB07006FC6EE /* VIPERSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -190,6 +299,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB74585F285DA9B7006FC6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74586C285DAB07006FC6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -201,6 +324,7 @@
 				FB22E794285D32A500019A65 /* SignInViewController.swift in Sources */,
 				FB745850285D931A006FC6EE /* PaddingTextField.swift in Sources */,
 				FB22E790285D32A500019A65 /* AppDelegate.swift in Sources */,
+				FB74585B285DA516006FC6EE /* ContentViewController.swift in Sources */,
 				FB22E792285D32A500019A65 /* SceneDelegate.swift in Sources */,
 				FB745857285D9D16006FC6EE /* SignInInteractor.swift in Sources */,
 				FB745859285D9DA8006FC6EE /* SignInError.swift in Sources */,
@@ -208,7 +332,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB74585D285DA9B7006FC6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB745864285DA9B7006FC6EE /* VIPERSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB74586A285DAB07006FC6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB745871285DAB07006FC6EE /* VIPERSampleUITests.swift in Sources */,
+				FB745873285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB745866285DA9B7006FC6EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB22E78B285D32A500019A65 /* VIPERSample */;
+			targetProxy = FB745865285DA9B7006FC6EE /* PBXContainerItemProxy */;
+		};
+		FB745875285DAB07006FC6EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB22E78B285D32A500019A65 /* VIPERSample */;
+			targetProxy = FB745874285DAB07006FC6EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FB22E79A285D32A800019A65 /* LaunchScreen.storyboard */ = {
@@ -390,6 +544,76 @@
 			};
 			name = Release;
 		};
+		FB745868285DA9B7006FC6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT557Q945S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuroda.VIPERSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPERSample.app/VIPERSample";
+			};
+			name = Debug;
+		};
+		FB745869285DA9B7006FC6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT557Q945S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuroda.VIPERSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPERSample.app/VIPERSample";
+			};
+			name = Release;
+		};
+		FB745877285DAB07006FC6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT557Q945S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuroda.VIPERSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VIPERSample;
+			};
+			name = Debug;
+		};
+		FB745878285DAB07006FC6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KT557Q945S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuroda.VIPERSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VIPERSample;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -407,6 +631,24 @@
 			buildConfigurations = (
 				FB22E7A1285D32A800019A65 /* Debug */,
 				FB22E7A2285D32A800019A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB745867285DA9B7006FC6EE /* Build configuration list for PBXNativeTarget "VIPERSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB745868285DA9B7006FC6EE /* Debug */,
+				FB745869285DA9B7006FC6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB745876285DAB07006FC6EE /* Build configuration list for PBXNativeTarget "VIPERSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB745877285DAB07006FC6EE /* Debug */,
+				FB745878285DAB07006FC6EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

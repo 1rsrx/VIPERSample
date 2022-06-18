@@ -10,6 +10,7 @@ import Combine
 
 protocol SignInPresentation: AnyObject {
     func didTapSignInButton(id: String, password: String)
+    func didChange(_ id: String, or password: String)
 }
 
 class SignInPresenter {
@@ -39,5 +40,11 @@ extension SignInPresenter: SignInPresentation {
                 self.router.transitionToContentView()
             }
             .store(in: &cancellables)
+    }
+
+    func didChange(_ id: String, or password: String) {
+        let canSignIn = (id.count > 3) && (password.count > 5)
+        print(canSignIn)
+        view?.setButtonEnable(isEnabled: canSignIn)
     }
 }
