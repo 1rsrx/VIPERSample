@@ -17,9 +17,6 @@
 		FB745857285D9D16006FC6EE /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745856285D9D16006FC6EE /* SignInInteractor.swift */; };
 		FB745859285D9DA8006FC6EE /* SignInError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745858285D9DA8006FC6EE /* SignInError.swift */; };
 		FB74585B285DA516006FC6EE /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74585A285DA516006FC6EE /* ContentViewController.swift */; };
-		FB745864285DA9B7006FC6EE /* VIPERSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745863285DA9B7006FC6EE /* VIPERSampleTests.swift */; };
-		FB745871285DAB07006FC6EE /* VIPERSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745870285DAB07006FC6EE /* VIPERSampleUITests.swift */; };
-		FB745873285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745872285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +50,7 @@
 		FB745858285D9DA8006FC6EE /* SignInError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInError.swift; sourceTree = "<group>"; };
 		FB74585A285DA516006FC6EE /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		FB745861285DA9B7006FC6EE /* VIPERSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB745863285DA9B7006FC6EE /* VIPERSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERSampleTests.swift; sourceTree = "<group>"; };
 		FB74586E285DAB07006FC6EE /* VIPERSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB745870285DAB07006FC6EE /* VIPERSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERSampleUITests.swift; sourceTree = "<group>"; };
-		FB745872285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				FB22E78E285D32A500019A65 /* VIPERSample */,
-				FB745862285DA9B7006FC6EE /* VIPERSampleTests */,
-				FB74586F285DAB07006FC6EE /* VIPERSampleUITests */,
 				FB22E78D285D32A500019A65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -160,23 +152,6 @@
 				FB745854285D9C5D006FC6EE /* SignInRouter.swift */,
 			);
 			path = Router;
-			sourceTree = "<group>";
-		};
-		FB745862285DA9B7006FC6EE /* VIPERSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				FB745863285DA9B7006FC6EE /* VIPERSampleTests.swift */,
-			);
-			path = VIPERSampleTests;
-			sourceTree = "<group>";
-		};
-		FB74586F285DAB07006FC6EE /* VIPERSampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FB745870285DAB07006FC6EE /* VIPERSampleUITests.swift */,
-				FB745872285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift */,
-			);
-			path = VIPERSampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB745864285DA9B7006FC6EE /* VIPERSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,8 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB745871285DAB07006FC6EE /* VIPERSampleUITests.swift in Sources */,
-				FB745873285DAB07006FC6EE /* VIPERSampleUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
