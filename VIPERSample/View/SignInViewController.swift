@@ -15,8 +15,8 @@ protocol SignInView: AnyObject {
 final class SignInViewController: UIViewController {
 
     private let stackView = UIStackView()
-    private let idTextField = PaddingTextField(top: 5, left: 5, bottom: 5, right: 5)
-    private let passwordTextField = PaddingTextField(top: 5, left: 5, bottom: 5, right: 5)
+    private let idTextField = UITextField()
+    private let passwordTextField = UITextField()
     private let signInButton = UIButton()
 
     var presenter: SignInPresentation!
@@ -47,8 +47,10 @@ final class SignInViewController: UIViewController {
         stackView.addArrangedSubview(signInButton)
 
         idTextField.placeholder = "ID"
+        idTextField.borderStyle = .roundedRect
 
         passwordTextField.placeholder = "password"
+        passwordTextField.borderStyle = .roundedRect
 
         signInButton.isEnabled = false
         signInButton.alpha = 0.2

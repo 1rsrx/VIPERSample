@@ -12,7 +12,6 @@
 		FB22E794285D32A500019A65 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22E793285D32A500019A65 /* SignInViewController.swift */; };
 		FB22E799285D32A700019A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB22E798285D32A700019A65 /* Assets.xcassets */; };
 		FB22E79C285D32A800019A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB22E79A285D32A800019A65 /* LaunchScreen.storyboard */; };
-		FB745850285D931A006FC6EE /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74584F285D931A006FC6EE /* PaddingTextField.swift */; };
 		FB745853285D9AD3006FC6EE /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745852285D9AD3006FC6EE /* SignInPresenter.swift */; };
 		FB745855285D9C5D006FC6EE /* SignInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745854285D9C5D006FC6EE /* SignInRouter.swift */; };
 		FB745857285D9D16006FC6EE /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB745856285D9D16006FC6EE /* SignInInteractor.swift */; };
@@ -48,7 +47,6 @@
 		FB22E798285D32A700019A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB22E79B285D32A800019A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB22E79D285D32A800019A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB74584F285D931A006FC6EE /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		FB745852285D9AD3006FC6EE /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
 		FB745854285D9C5D006FC6EE /* SignInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRouter.swift; sourceTree = "<group>"; };
 		FB745856285D9D16006FC6EE /* SignInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 		FB745848285D4011006FC6EE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FB745851285D98A1006FC6EE /* Common */,
 				FB22E793285D32A500019A65 /* SignInViewController.swift */,
 				FB74585A285DA516006FC6EE /* ContentViewController.swift */,
 			);
@@ -163,14 +160,6 @@
 				FB745854285D9C5D006FC6EE /* SignInRouter.swift */,
 			);
 			path = Router;
-			sourceTree = "<group>";
-		};
-		FB745851285D98A1006FC6EE /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				FB74584F285D931A006FC6EE /* PaddingTextField.swift */,
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		FB745862285DA9B7006FC6EE /* VIPERSampleTests */ = {
@@ -322,7 +311,6 @@
 			files = (
 				FB745855285D9C5D006FC6EE /* SignInRouter.swift in Sources */,
 				FB22E794285D32A500019A65 /* SignInViewController.swift in Sources */,
-				FB745850285D931A006FC6EE /* PaddingTextField.swift in Sources */,
 				FB22E790285D32A500019A65 /* AppDelegate.swift in Sources */,
 				FB74585B285DA516006FC6EE /* ContentViewController.swift in Sources */,
 				FB22E792285D32A500019A65 /* SceneDelegate.swift in Sources */,

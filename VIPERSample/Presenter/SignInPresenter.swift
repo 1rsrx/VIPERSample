@@ -44,7 +44,6 @@ extension SignInPresenter: SignInPresentation {
 
     func didChange(_ id: String, or password: String) {
         let canSignIn = (id.count > 3) && (password.count > 5)
-        print(canSignIn)
         view?.setButtonEnable(isEnabled: canSignIn)
     }
 }
